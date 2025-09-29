@@ -3,9 +3,10 @@ import pandas as pd
 import folium
 from folium.plugins import HeatMap
 import time
+import os
 
 # ============= CONFIG =============
-API_KEY = "YOUR_TOMTOM_API_KEY"
+API_KEY = os.get("api_key")  # TomTom API key
 
 # Bengaluru bounding box (lat_min, lon_min, lat_max, lon_max)
 BBOX = [12.85, 77.45, 13.10, 77.75]
