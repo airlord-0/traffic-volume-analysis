@@ -15,7 +15,7 @@ It generates both:
 ⸻
 
 set up and installation
-1. clone my repo- git clone https://github.com/yourusername/traffic-analysis.git
+1. clone my repo- git clone --branch airlord-0-patch-1 --single-branch https://github.com/airlord-0/traffic-volume-analysis.git
    cd traffic-analysis
 2. install dependencies
    1.pandas, 2.requests, 3.folium, 4.os, 5.load.env 6.matplotlib
