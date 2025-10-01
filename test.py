@@ -3,17 +3,9 @@ import pandas as pd
 import folium
 from folium.plugins import HeatMap
 import time
-import os
 
-# ============= CONFIG =============
-API_KEY = os.get("api_key")  # TomTom API key
 
-# Bengaluru bounding box (lat_min, lon_min, lat_max, lon_max)
-BBOX = [12.85, 77.45, 13.10, 77.75]
-GRID_STEP = 0.02  # ~2 km spacing for grid
-
-# ==================================
-
+API_KEY="tomtomapikey"
 
 def get_traffic_flow(lat, lon):
     """Fetch traffic flow data from TomTom for given coordinates"""
